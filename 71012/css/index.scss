@@ -1,0 +1,139 @@
+$sc: 23;
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    width: 100%;
+    height: 100%;
+    body{
+        @extend html;
+        box-sizing: border-box;
+        .container{
+            header{
+                width: 100%;
+                height: 187/$sc+rem;
+                position: fixed;
+                top: 0; 
+                background: #ffffff;
+                img{
+                    width: 414/$sc+rem;
+                    height: 187/$sc+rem;
+                    display: flex;
+                }
+            }
+            .head_bottom{
+                position: fixed;
+                top: 187/$sc+rem;
+                width: 100%;
+                height: 156/$sc+rem;
+                display: flex;
+                flex-direction: column;
+                box-sizing: border-box;
+                background: #ffffff;
+                img{
+                    width: 84/$sc+rem;
+                    height: 20/$sc+rem;
+                    margin-top: 13/$sc+rem;
+                    margin-left: 164/$sc+rem;
+                }
+                p{
+                    width: 383/$sc+rem;
+                    height: 83/$sc+rem;
+                    font-size: 16/$sc+rem;
+                    margin-top: 12/$sc+rem;
+                    margin-left: 16/$sc+rem;
+                    span{
+                        text-align: center;
+                        line-height: 42/$sc+rem;
+                        display: inline-block;
+                        width: 42/$sc+rem;
+                        height: 42/$sc+rem;
+                        padding-left: 2/$sc+rem;
+                        padding-right: 2/$sc+rem;
+                        border: 1/$sc+rem solid transparent;
+                        border-radius: 50%;
+                        background: #d32c57;
+                    }
+                }
+            }
+            section{
+                @extend html;
+                box-sizing: border-box;
+                overflow-y: auto;
+                padding-top: 321/$sc+rem;
+                ul{
+                    margin-top: 11/$sc+rem;
+                    margin-left: 14/$sc+rem;
+                    width: 389/$sc+rem;
+                    height: 100%;
+                    li{
+                        width: 389/$sc+rem;
+                        height: 172/$sc+rem;
+                        border-bottom: 1/$sc+rem solid #cccccc;
+                        & div:first-child{
+                            width: 135/$sc+rem;
+                            height: 136/$sc+rem;
+                            float: left;
+                            img{ 
+                                width: 135/$sc+rem;
+                                height: 136/$sc+rem;
+                                float: left;
+                                margin-top: 16/$sc+rem;
+                            }
+                        }
+                        & div:last-child{
+                            float: right;
+                            width: 236/$sc+rem;
+                            height: 75/$sc+rem;
+                            font-size: 19/$sc+rem;
+                            margin-top: 11/$sc+rem;
+                            img{
+                                float: right;
+                                width: 235/$sc+rem;
+                                height: 76/$sc+rem;
+                                margin-top: 20/$sc+rem;
+                            }
+                        }
+                    }
+                }
+            }
+            footer{
+                position: fixed;
+                bottom: 0;
+                width: 100%;
+                height: 58/$sc+rem;
+                background: rgba(0,0,0,0.5);
+                & div:first-child{
+                    float: left;
+                    margin-top: 7/$sc+rem;
+                    margin-left: 11/$sc+rem;
+                }
+                p{
+                    float: left;
+                    width: 64/$sc+rem;
+                    height: 44/$sc+rem;
+                    font-size: 12/$sc+rem;
+                    margin-left: 12/$sc+rem;
+                    margin-top: 8/$sc+rem;
+                    color: #FFFFFF;
+                    b{
+                        font-size: 19/$sc+rem;
+                    }
+                }
+                button{
+                    float: right;
+                    width: 104/$sc+rem;
+                    height: 34/$sc+rem;
+                    margin-right: 12/$sc+rem;
+                    margin-top: 12/$sc+rem;
+                    background: #db2e5b;
+                    color: #ffffff;
+                    border: 1px solid transparent;
+                    border-radius: 10%;
+                    font-size: 16/$sc+rem;
+                }
+            }
+        }
+    }
+}
