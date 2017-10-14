@@ -1,0 +1,36 @@
+@font-face { font-family: 'iconfont'; src: url("../img/font/iconfont.eot"); src: url("../img/font/iconfont.eot?#iefix") format("embedded-opentype"), url("../img/font/iconfont.woff") format("woff"), url("../img/font/iconfont.ttf") format("truetype"), url("../img/font/iconfont.svg#iconfont") format("svg"); }
+.iconfont { font-family: "iconfont" !important; -webkit-font-smoothing: antialiased; -webkit-text-stroke-width: 0.2px; -moz-osx-font-smoothing: grayscale; }
+
+* { margin: 0; padding: 0; }
+
+html, html body { width: 100%; height: 100%; }
+html body { background: #f4f4f4; }
+html body header { width: 100%; height: 1.76rem; background: #148ad2; }
+html body header div { font-size: 0.74rem; float: left; margin-top: 0.56rem; margin-left: 0.48rem; color: #FFFFFF; }
+html body header p { float: left; font-size: 0.6rem; color: #FFFFFF; margin-top: 0.56rem; margin-left: 5.04rem; }
+html body section { width: 100%; }
+html body section ul:nth-child(1) { background: #FFFFFF; margin-top: 0.4rem; width: 100%; height: 4.26rem; list-style: none; }
+html body section ul:nth-child(1) li { width: 100%; height: 2.12rem; }
+html body section ul:nth-child(1) li:nth-child(1) { border-bottom: 0.02rem solid #e6e6e6; }
+html body section ul:nth-child(1) li p { float: left; font-size: 0.56rem; margin-top: 0.78rem; margin-left: 0.48rem; }
+html body section ul:nth-child(1) li .box { float: right; margin-right: 0.48rem; margin-top: 0.36rem; }
+html body section ul:nth-child(1) li .box img { width: 1.44rem; height: 1.46rem; margin-right: 0.36rem; }
+html body section ul:nth-child(1) li .box div { float: right; font-size: 0.54rem; margin-top: 0.44rem; }
+html body section ul:nth-child(1) li .box p { float: left; margin-top: 0.34rem; margin-right: 0.36rem; }
+html body section ul:nth-child(2) { background: #FFFFFF; margin-top: 0.4rem; width: 100%; height: 10.72rem; list-style: none; }
+html body section ul:nth-child(2) li { width: 100%; height: 2.12rem; }
+html body section ul:nth-child(2) li:nth-child(1), html body section ul:nth-child(2) li:nth-child(2), html body section ul:nth-child(2) li:nth-child(3), html body section ul:nth-child(2) li:nth-child(4) { border-bottom: 0.02rem solid #e6e6e6; }
+html body section ul:nth-child(2) li p { float: left; font-size: 0.56rem; margin-top: 0.78rem; margin-left: 0.48rem; }
+html body section ul:nth-child(2) li .box { float: right; margin-right: 0.48rem; margin-top: 0.36rem; }
+html body section ul:nth-child(2) li .box img { width: 1.44rem; height: 1.46rem; margin-right: 0.36rem; }
+html body section ul:nth-child(2) li .box div { float: right; font-size: 0.54rem; margin-top: 0.44rem; }
+html body section ul:nth-child(2) li .box p { float: left; margin-top: 0.34rem; margin-right: 0.36rem; color: #818181; }
+html body section ul:nth-child(3) { background: #FFFFFF; margin-top: 0.4rem; width: 100%; height: 2.12rem; list-style: none; }
+html body section ul:nth-child(3) li { width: 100%; height: 100%; }
+html body section ul:nth-child(3) li p { float: left; font-size: 0.56rem; margin-top: 0.78rem; margin-left: 0.48rem; }
+html body section ul:nth-child(3) li .box { float: right; margin-right: 0.48rem; margin-top: 0.36rem; }
+html body section ul:nth-child(3) li .box img { width: 1.44rem; height: 1.46rem; margin-right: 0.36rem; }
+html body section ul:nth-child(3) li .box div { float: right; font-size: 0.54rem; margin-top: 0.44rem; }
+html body section ul:nth-child(3) li .box p { float: left; margin-top: 0.34rem; margin-right: 0.36rem; color: #818181; }
+
+/*# sourceMappingURL=personal.css.map */
