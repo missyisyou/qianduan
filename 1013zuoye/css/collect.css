@@ -1,0 +1,78 @@
+@font-face { font-family: 'iconfont'; src: url("../img/fontcol/iconfont.eot"); src: url("../img/fontcol/iconfont.eot?#iefix") format("embedded-opentype"), url("../img/fontcol/iconfont.woff") format("woff"), url("../img/fontcol/iconfont.ttf") format("truetype"), url("../img/fontcol/iconfont.svg#iconfont") format("svg"); }
+.iconfont { font-family: "iconfont" !important; -webkit-font-smoothing: antialiased; -webkit-text-stroke-width: 0.2px; -moz-osx-font-smoothing: grayscale; }
+
+* { margin: 0; padding: 0; }
+
+html, html body, html body .container, html body .container section, html body .container section ul { width: 100%; height: 100%; }
+html body, html body .container body, html body .container section ul body { background: #F4F4F4; }
+html body .container header, html body .container section ul body .container header { width: 100%; height: 1.76rem; background: #148AD2; color: #FFFFFF; position: fixed; top: 0; }
+html body .container header div { float: left; font-size: 0.7rem; margin-top: 0.56rem; margin-left: 0.48rem; }
+html body .container header h1 { float: left; font-size: 0.62rem; margin-top: 0.52rem; margin-left: 4.8rem; }
+html body .container header p { float: right; font-size: 0.56rem; margin-top: 0.56rem; margin-right: 1.2rem; }
+html body .container nav, html body .container section ul body .container nav { width: 100%; height: 1.6rem; background: #FFFFFF; position: fixed; top: 1.76rem; }
+html body .container nav div { text-align: center; float: left; width: 50%; height: 100%; font-size: 0.52rem; }
+html body .container nav div p { margin-top: 0.52rem; }
+html body .container nav div:nth-child(1) { color: #1389cf; }
+html body .container section, html body .container section ul body .container section { padding-top: 4rem; overflow-y: auto; }
+html body .container section ul { list-style: none; }
+html body .container section ul li:nth-child(1) { width: 100%; height: 4.42rem; border-bottom: solid 1px #e6e6e6; }
+html body .container section ul li:nth-child(1) .im_1 { float: left; width: 4.52rem; height: 3.62rem; margin-top: 0.4rem; margin-left: 0.48rem; border-radius: 10%; background: url(../img/lian.jpg); background-size: cover; }
+html body .container section ul li:nth-child(1) .im_2 { float: right; width: 9.14rem; margin-right: 0.56rem; }
+html body .container section ul li:nth-child(1) .im_2 p { width: 100%; height: 1.72rem; font-size: 0.6rem; line-height: 0.9rem; letter-spacing: 0.1rem; margin-top: 0.74rem; }
+html body .container section ul li:nth-child(1) .im_3 { float: left; width: 9.14rem; height: 0.4+rem; margin-top: 0.64rem; color: #a0a0a0; margin-left: 0.38rem; }
+html body .container section ul li:nth-child(1) .im_3 .iconfont { float: left; height: 100%; font-size: 0.36rem; }
+html body .container section ul li:nth-child(1) .im_3 p { float: left; font-size: 0.34rem; margin-left: 0.16rem; }
+html body .container section ul li:nth-child(1) .im_3 .right { float: left; width: 3.2rem; height: 100%; margin: 0; text-align: right; margin-left: 2.6rem; }
+html body .container section ul li:nth-child(1) .im_3 .right div:first-child { float: left; margin-top: 0.08rem; }
+html body .container section ul li:nth-child(1) .im_3 .right .rightic { float: left; margin-left: 0.56rem; }
+html body .container section ul li:nth-child(1) .im_3 .right p { float: left; margin-left: 0.2rem; font-size: 0.32rem; }
+html body .container section ul li:nth-child(2) { width: 100%; height: 6.1rem; border-bottom: solid 1px #e6e6e6; }
+html body .container section ul li:nth-child(2) .top { margin-top: 0.44rem; font-size: 0.56rem; margin-left: 0.48rem; }
+html body .container section ul li:nth-child(2) ul { margin-top: 0.22rem; margin-left: 0.48rem; width: 14.04rem; height: 3.62rem; display: flex; justify-content: space-around; }
+html body .container section ul li:nth-child(2) ul li:nth-child(1) { width: 4.52rem; height: 100%; background: url(../img/ma_1.jpg); background-size: cover; border-radius: 10%; }
+html body .container section ul li:nth-child(2) ul li:nth-child(2) { width: 4.52rem; height: 100%; background: url(../img/ma_2.jpg); background-size: cover; border-radius: 10%; }
+html body .container section ul li:nth-child(2) ul li:nth-child(3) { width: 4.52rem; height: 100%; background: url(../img/ma_3.jpg); background-size: cover; border-radius: 10%; }
+html body .container section ul li:nth-child(2) .ma_1 { width: 100%; margin-top: 0.42rem; margin-left: 0.48rem; font-size: 0.36rem; color: #A0A0A0; }
+html body .container section ul li:nth-child(2) .ma_1 .ma_p1 { float: left; }
+html body .container section ul li:nth-child(2) .ma_1 .a { float: left; margin-left: 0.62rem; }
+html body .container section ul li:nth-child(2) .ma_1 .ma_p2 { float: left; }
+html body .container section ul li:nth-child(2) .ma_1 .im_right { float: left; width: 3.2rem; height: 0.36rem; margin: 0; text-align: right; margin-left: 5.4rem; }
+html body .container section ul li:nth-child(2) .ma_1 .im_right .b { float: left; margin-top: 0.08rem; }
+html body .container section ul li:nth-child(2) .ma_1 .im_right .ma_p3 { float: left; margin-left: 0.2rem; font-size: 0.32rem; }
+html body .container section ul li:nth-child(2) .ma_1 .im_right .righticon { float: left; margin-left: 0.56rem; }
+html body .container section ul li:nth-child(2) .ma_1 .im_right .ma_p4 { float: left; margin-left: 0.2rem; font-size: 0.32rem; }
+html body .container section ul li:nth-child(3) { width: 100%; height: 4.42rem; border-bottom: solid 1px #e6e6e6; }
+html body .container section ul li:nth-child(3) .im_1 { float: left; width: 4.52rem; height: 3.62rem; margin-top: 0.4rem; margin-left: 0.48rem; border-radius: 10%; background: url(../img/zhi.jpg); background-size: cover; }
+html body .container section ul li:nth-child(3) .im_2 { float: right; width: 9.14rem; margin-right: 0.56rem; }
+html body .container section ul li:nth-child(3) .im_2 p { width: 100%; height: 1.72rem; font-size: 0.6rem; line-height: 0.9rem; letter-spacing: 0.1rem; margin-top: 0.74rem; }
+html body .container section ul li:nth-child(3) .im_3 { float: left; width: 9.14rem; height: 0.4+rem; margin-top: 0.64rem; color: #a0a0a0; margin-left: 0.38rem; }
+html body .container section ul li:nth-child(3) .im_3 .iconfont { float: left; height: 100%; font-size: 0.36rem; }
+html body .container section ul li:nth-child(3) .im_3 p { float: left; font-size: 0.34rem; margin-left: 0.16rem; }
+html body .container section ul li:nth-child(3) .im_3 .right { float: left; width: 3.2rem; height: 100%; margin: 0; text-align: right; margin-left: 2.6rem; }
+html body .container section ul li:nth-child(3) .im_3 .right div:first-child { float: left; margin-top: 0.08rem; }
+html body .container section ul li:nth-child(3) .im_3 .right .rightic { float: left; margin-left: 0.56rem; }
+html body .container section ul li:nth-child(3) .im_3 .right p { float: left; margin-left: 0.2rem; font-size: 0.32rem; }
+html body .container section ul li:nth-child(4) { width: 100%; height: 4.42rem; border-bottom: solid 1px #e6e6e6; }
+html body .container section ul li:nth-child(4) .im_1 { float: left; width: 4.52rem; height: 3.62rem; margin-top: 0.4rem; margin-left: 0.48rem; border-radius: 10%; background: url(../img/xue.jpg); background-size: cover; }
+html body .container section ul li:nth-child(4) .im_2 { float: right; width: 9.14rem; margin-right: 0.56rem; }
+html body .container section ul li:nth-child(4) .im_2 p { width: 100%; height: 1.72rem; font-size: 0.6rem; line-height: 0.9rem; letter-spacing: 0.1rem; margin-top: 0.74rem; }
+html body .container section ul li:nth-child(4) .im_3 { float: left; width: 9.14rem; height: 0.4+rem; margin-top: 0.64rem; color: #a0a0a0; margin-left: 0.38rem; }
+html body .container section ul li:nth-child(4) .im_3 .iconfont { float: left; height: 100%; font-size: 0.36rem; }
+html body .container section ul li:nth-child(4) .im_3 p { float: left; font-size: 0.34rem; margin-left: 0.16rem; }
+html body .container section ul li:nth-child(4) .im_3 .right { float: left; width: 3.2rem; height: 100%; margin: 0; text-align: right; margin-left: 1.96rem; }
+html body .container section ul li:nth-child(4) .im_3 .right div:first-child { float: left; margin-top: 0.08rem; }
+html body .container section ul li:nth-child(4) .im_3 .right .rightic { float: left; margin-left: 0.56rem; }
+html body .container section ul li:nth-child(4) .im_3 .right p { float: left; margin-left: 0.2rem; font-size: 0.32rem; }
+html body .container section ul li:nth-child(5) { width: 100%; height: 4.42rem; border-bottom: solid 1px #e6e6e6; }
+html body .container section ul li:nth-child(5) .im_1 { float: left; width: 4.52rem; height: 3.62rem; margin-top: 0.4rem; margin-left: 0.48rem; border-radius: 10%; background: url(../img/ma_1.jpg); background-size: cover; }
+html body .container section ul li:nth-child(5) .im_2 { float: right; width: 9.14rem; margin-right: 0.56rem; }
+html body .container section ul li:nth-child(5) .im_2 p { width: 100%; height: 1.72rem; font-size: 0.6rem; line-height: 0.9rem; letter-spacing: 0.1rem; margin-top: 0.74rem; }
+html body .container section ul li:nth-child(5) .im_3 { float: left; width: 9.14rem; height: 0.4+rem; margin-top: 0.64rem; color: #a0a0a0; margin-left: 0.38rem; }
+html body .container section ul li:nth-child(5) .im_3 .iconfont { float: left; height: 100%; font-size: 0.36rem; }
+html body .container section ul li:nth-child(5) .im_3 p { float: left; font-size: 0.34rem; margin-left: 0.16rem; }
+html body .container section ul li:nth-child(5) .im_3 .right { float: left; width: 3.2rem; height: 100%; margin: 0; text-align: right; margin-left: 2.6rem; }
+html body .container section ul li:nth-child(5) .im_3 .right div:first-child { float: left; margin-top: 0.08rem; }
+html body .container section ul li:nth-child(5) .im_3 .right .rightic { float: left; margin-left: 0.56rem; }
+html body .container section ul li:nth-child(5) .im_3 .right p { float: left; margin-left: 0.2rem; font-size: 0.32rem; }
+
+/*# sourceMappingURL=collect.css.map */
